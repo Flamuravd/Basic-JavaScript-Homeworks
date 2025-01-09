@@ -1,13 +1,23 @@
-console.log("working");
+const rowsEl = document.getElementById("rows");
+const columnsEl =  document.getElementById("columns");
+const btnEl = document.getElementById("createTable");
+const divEl = document.getElementById("table");
 
-function createTable() {
-    let tableHTML = "<table border='1'>";
-    tableHTML += "<tr><th>Row 1 Column 1</th><th>Row 1 Column 2</th><th>Row 1 Column 3</th></tr>";
-    tableHTML += "<tr><td>Row 2 Column 1</td><td>Row 2 Column 2</td><td>Row 2 Column 3</td></tr>";
-    tableHTML += "<tr><td>Row 3 Column 1</td><td>Row 3 Column 2</td><td>Row 3 Column 3</td></tr>";
-    tableHTML += "<tr><td>Row 4 Column 1</td><td>Row 4 Column 2</td><td>Row 4 Column 3</td></tr>";
-    tableHTML += "</table>";
-    document.getElementById("table").innerHTML = tableHTML;
-}
+btnEl.addEventListener("click", function() {
+  let rows = rowsEl.value;
+  let columns = columnsEl.value;
 
-createTable();
+  console.log("Rows: ", rows);
+  console.log("Columns: ", columns);
+
+  let table = "<table border='1'>";
+  for (let i = 1; i < rows; i++) {
+    table += "<tr>";
+  for (let j = 1; j < columns; j++) {
+    table += "<td>Row " + i + " Column " + j + "</td>";
+  }
+    table += "</tr>";
+  }
+  table += "</table>";
+  divEl.innerHTML = table;
+});
