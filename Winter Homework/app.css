@@ -1,0 +1,251 @@
+input {
+  margin-left: 500px;
+  width: 380px;
+  height: 80px;
+  font-size: 30px;
+}
+
+.btn-clear {
+  background-color: gainsboro;
+  color: black;
+  border: solid 1px gainsboro;
+  padding: 25px 75px;
+  margin-top: 10px;
+  margin-left: 500px;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+}
+
+.btn-backspace {
+  position: relative;
+  position: absolute;
+  background-color: gainsboro;
+  color: black;
+  border: solid 1px gainsboro;
+  padding: 25px 32.5px;
+  margin-top: 10px;
+  margin-left: 685px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.btn-divide {
+  position: relative;
+  position: absolute;
+  background-color: rgb(243, 158, 0);
+  color: white;
+  border: solid 1px rgb(243, 158, 0);
+  padding: 25px 37px;
+  margin-top: 10px;
+  margin-left: 796px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.btn-seven {
+  position: relative;
+  position: absolute;
+  background-color: gainsboro;
+  color: black;
+  border: solid 1px gainsboro;
+  padding: 25px 32px;
+  margin-top: 110px;
+  margin-left: 500px;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-eight {
+  position: relative;
+  position: absolute;
+  background-color: gainsboro;
+  color: black;
+  border: solid 1px gainsboro;
+  padding: 25px 32.5px;
+  margin-top: 110px;
+  margin-left: 592px;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-nine {
+  position: relative;
+  position: absolute;
+  background-color: gainsboro;
+  color: black;
+  border: solid 1px gainsboro;
+  padding: 25px 41.5px;
+  margin-top: 110px;
+  margin-left: 685px;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-multiply {
+  position: relative;
+  position: absolute;
+  background-color: rgb(243, 158, 0);
+  color: white;
+  border: solid 1px rgb(243, 158, 0);;
+  padding: 25px 35px;
+  margin-top: 110px;
+  margin-left: 796px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.btn-four {
+  position: relative;
+  position: absolute;
+  background-color: gainsboro;
+  color: black;
+  border: solid 1px gainsboro;
+  padding: 25px 32px;
+  margin-top: 210px;
+  margin-left: 500px;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-five {
+  position: relative;
+  position: absolute;
+  background-color: gainsboro;
+  color: black;
+  border: solid 1px gainsboro;
+  padding: 25px 32.5px;
+  margin-top: 210px;
+  margin-left: 592px;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-six {
+  position: relative;
+  position: absolute;
+  background-color: gainsboro;
+  color: black;
+  border: solid 1px gainsboro;
+  padding: 25px 41.5px;
+  margin-top: 210px;
+  margin-left: 685px;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-subtract {
+  position: relative;
+  position: absolute;
+  background-color: rgb(243, 158, 0);
+  color: white;
+  border: solid 1px rgb(243, 158, 0);
+  padding: 25px 37px;
+  margin-top: 210px;
+  margin-left: 796px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.btn-one {
+  position: relative;
+  position: absolute;
+  background-color: gainsboro;
+  color: black;
+  border: solid 1px gainsboro;
+  padding: 25px 32px;
+  margin-top: 310px;
+  margin-left: 500px;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-two {
+  position: relative;
+  position: absolute;
+  background-color: gainsboro;
+  color: black;
+  border: solid 1px gainsboro;
+  padding: 25px 32.5px;
+  margin-top: 310px;
+  margin-left: 592px;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-three {
+  position: relative;
+  position: absolute;
+  background-color: gainsboro;
+  color: black;
+  border: solid 1px gainsboro;
+  padding: 25px 41.5px;
+  margin-top: 310px;
+  margin-left: 685px;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-add {
+  position: relative;
+  position: absolute;
+  background-color: rgb(243, 158, 0);
+  color: white;
+  border: solid 1px rgb(243, 158, 0);
+  padding: 25px 32px;
+  margin-top: 310px;
+  margin-left: 796px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.btn-decimal {
+  position: relative;
+  position: absolute;
+  background-color: gainsboro;
+  color: black;
+  border: solid 1px gainsboro;
+  padding: 25px 37.5px;
+  margin-top: 410px;
+  margin-left: 500px;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-zero {
+  position: relative;
+  position: absolute;
+  background-color: gainsboro;
+  color: black;
+  border: solid 1px gainsboro;
+  padding: 25px 88px;
+  margin-top: 410px;
+  margin-left: 592px;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-equals {
+  position: relative;
+  position: absolute;
+  background-color: rgb(243, 158, 0);
+  color: white;
+  border: solid 1px rgb(243, 158, 0);
+  padding: 25px 32px;
+  margin-top: 410px;
+  margin-left: 796px;
+  font-size: 40px;
+  cursor: pointer
+}
